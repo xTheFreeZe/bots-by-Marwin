@@ -39,7 +39,7 @@ function Submitfunction() {
         localStorage.setItem("username", Username);
         localStorage.setItem("password", Password);
     } else {
-        document.getElementById("alert_messages").innerHTML = "Sorry, your browser does not support Web Storage...";
+        document.getElementById("alert_messages").innerHTML = "Sorry, your browser does not support Web Storage!";
     }
 
     window.location.href = "options.html";
