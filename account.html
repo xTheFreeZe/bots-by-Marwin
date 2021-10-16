@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Account | Login</title>
+    <link rel="stylesheet" href="css/account.css">
+    <link rel="icon" type="image/gif/png" href="pictures/Discord-Logo-White.png">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <script src="https://kit.fontawesome.com/bb945f0028.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="Header">
+        <i class="fas fa-sign-in-alt"></i> Log into your Account
+    </div>
+
+    <div class="UsernameLogin">
+        <input type="text" placeholder="Username" name="name" id="SubmitName">
+    </div>
+
+
+    <div class="PasswordLogin">
+        <input type="password" placeholder="Password" name="password" id="SubmitPassword">
+    </div>
+
+    <div class="SubmitButt">
+        <input type="submit" value="Log in!" onclick="Submitfunction()">
+    </div>
+
+    <div class="RegisterButt">
+        <input type="submit" value="Register!" onclick="RegsiterFunction()">
+    </div>
+
+
+    <div class="button_Back">
+        <a href="index.html"><i class="fas fa-arrow-left"></i> Back</a>
+    </div>
+
+    <div class="alerts" id="alert_messages">
+        <p></p>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

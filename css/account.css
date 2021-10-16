@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    overflow: hidden;
+    background-color: #1e3d59;
+    font-family: Lato;
+    text-align: center;
+}
+
+.Header {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: #e52165;
+}
+
+.Header:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 5px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff1e1;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.Header:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.UsernameLogin {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.PasswordLogin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.SubmitButt {
+    position: absolute;
+    top: 65%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+
+.RegisterButt {
+    position: absolute;
+    top: 65%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+
+input[type=text],
+select {
+    width: 120%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #f5f0e1;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #fff1e1;
+}
+
+input[type=password],
+select {
+    width: 120%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #f5f0e1;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #fff1e1;
+}
+
+input[type=submit],
+select {
+    width: 120%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #f5f0e1;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #fff1e1;
+    cursor: pointer;
+}
+
+input[type=text]:hover {
+    background-color: #fff1e1a6;
+    border: 2px solid wheat;
+}
+
+input[type=password]:hover {
+    background-color: #fff1e1a6;
+    border: 2px solid wheat;
+}
+
+input[type=submit]:hover {
+    background-color: #fff1e1a6;
+    border: 2px solid wheat;
+}
+
+.button_Back {
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.button_Back a {
+    text-decoration: none;
+    color: #e52165;
+}
+
+.alerts {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 50px;
+    color: #e52165;
+}

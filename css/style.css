@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    overflow: hidden;
+    background-color: #1e3d59;
+    font-family: Lato;
+    text-align: center;
+}
+
+@media screen and (max-width: 1199px) {
+
+    .credits {
+        visibility: hidden;
+    }
+
+    .credits:after {
+        visibility: visible;
+        content: "Made by Marwin | 2021";
+        font-weight: bold;
+        color: #645b5d;
+        letter-spacing: 3px;
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 300px;
+    }
+
+}
+
+.userLogin {
+    position: absolute;
+    top: 10%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+
+.darkmodeIcon {
+    position: absolute;
+    top: 10%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: #f5f0e1;
+    cursor: pointer;
+}
+
+.userLogin a {
+    text-decoration: none;
+    color: #f5f0e1;
+}
+
+.menu {
+    font-size: 25px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.menu ul {
+    display: inline-flex;
+    margin: 50px;
+}
+
+.menu ul li {
+    list-style: none;
+    margin: 0 50px;
+    color: #ffc13b;
+    cursor: pointer;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #ffc13b;
+}
+
+.header {
+    font-size: 40px;
+    color: #f5f0e1;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+}
+
+.header:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 5px;
+    bottom: 0;
+    left: 0;
+    background-color: #ff6e40;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.header:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.header_small {
+    font-size: 30px;
+    color: #ff6e40;
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+}
+
+.header_small:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 5px;
+    bottom: 0;
+    left: 0;
+    background-color: #f5f0e1;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.header_small:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.accountName {
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    color: #f5f0e1;
+}
+
+.credits {
+    color: #645b5d;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Github {
+    position: absolute;
+    top: 90%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+
+.Twitter {
+    position: absolute;
+    top: 90%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+
+.Github img {
+    height: 50px;
+}
+
+.Twitter img {
+    height: 50px;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}

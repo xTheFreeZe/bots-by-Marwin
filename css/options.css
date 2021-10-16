@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    overflow: hidden;
+    background-color: #ffe4e1;
+    font-family: Lato;
+    text-align: center;
+}
+
+.option1 {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: #0d1137;
+}
+
+.option2 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: #0d1137;
+}
+
+.option3 {
+    position: absolute;
+    top: 40%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: #0d1137;
+}
+
+.Confirm_Option1 {
+    position: absolute;
+    top: 65%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+    color: #e52165;
+    display: inline-block;
+}
+
+.Confirm_Option1:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 5px;
+    bottom: 0;
+    left: 0;
+    background-color: #0d1137;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.Confirm_Option1:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.Confirm_Option2 {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+    color: #e52165;
+    display: inline-block;
+}
+
+.Confirm_Option2:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 5px;
+    bottom: 0;
+    left: 0;
+    background-color: #0d1137;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.Confirm_Option2:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.Confirm_Option3 {
+    position: absolute;
+    top: 65%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+    color: #e52165;
+    display: inline-block;
+}
+
+.Confirm_Option3:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 5px;
+    bottom: 0;
+    left: 0;
+    background-color: #0d1137;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.Confirm_Option3:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.Full_ServerSupport_Text {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+}
+
+.Full_ServerSupport_Link {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.Full_ServerSupport_Link a {
+    color: #0d1137;
+    text-decoration: none;
+}
+
+.Full_ServerSupport_Link:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 5px;
+    bottom: 0;
+    left: 0;
+    background-color: #0d1137;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.Full_ServerSupport_Link:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.button_Back {
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.button_Back a {
+    text-decoration: none;
+    color: #e52165;
+}
+
+.accountName {
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
