@@ -150,6 +150,17 @@ html {
     color: #f5f0e1;
 }
 
+.AlphaRelease {
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    top: 90%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    cursor: text;
+    color: #f5f0e1;
+}
+
 .credits {
     color: #645b5d;
     letter-spacing: 3px;

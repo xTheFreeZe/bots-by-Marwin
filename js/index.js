@@ -3,14 +3,6 @@ function myFunction() {
     element.classList.toggle("dark-mode");
 }
 
-let usernames = [
-
-];
-
-let passwords = [
-
-];
-
 function Submitfunction() {
 
     //If you are actually checking out the code behind this... Screw you!!!
@@ -75,9 +67,7 @@ function RegsiterFunction() {
 
     document.getElementById("alert_messages").innerHTML = "Successfully created an Account!";
 
-
     window.location.href = "options.html";
-
 
 }
 
@@ -101,7 +91,8 @@ function LogOut() {
 
     if (!localStorage.getItem("username")) {
 
-        alert('Please log in before you log out...');
+        alert('You will be re-directed to our Log-In Page!');
+        window.location.href = "account.html";
         return;
     }
 
@@ -109,4 +100,5 @@ function LogOut() {
 
     document.getElementById("CurrentAccount").innerHTML = ("Succesfully logged out!");
 
+    location.reload();
 }

@@ -193,3 +193,14 @@ html {
     transform: translate(-50%, -50%);
     cursor: pointer;
 }
+
+.AlphaRelease {
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    top: 90%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    cursor: text;
+    color: #0d1137;
+}

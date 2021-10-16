@@ -18,7 +18,7 @@ html {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 50px;
-    color: #e52165;
+    color: #ffc13b;
 }
 
 .Header:after {
@@ -130,7 +130,7 @@ input[type=submit]:hover {
 
 .button_Back a {
     text-decoration: none;
-    color: #e52165;
+    color: #fff1e1;
 }
 
 .alerts {
@@ -141,4 +141,15 @@ input[type=submit]:hover {
     font-weight: bold;
     font-size: 50px;
     color: #e52165;
+}
+
+.AlphaRelease {
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    top: 90%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    cursor: text;
+    color: #f5f0e1;
 }
