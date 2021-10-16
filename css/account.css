@@ -56,15 +56,22 @@ html {
 .SubmitButt {
     position: absolute;
     top: 65%;
-    left: 45%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.RegisterButt {
+.noaccount {
     position: absolute;
-    top: 65%;
-    left: 55%;
+    top: 80%;
+    left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 25px;
+    color: #ffc13b;
+}
+
+.noaccount a {
+    color: #f5f0e1;
+    text-decoration: none;
 }
 
 input[type=text],
